@@ -101,3 +101,55 @@
     text-align: justify;
   }
 }
+/* Media Queries for Certifications Section */
+
+/* Medium Screens (max-width: 1400px) */
+@media screen and (max-width: 1400px) {
+  #certifications {
+    margin: 0 8%;
+    padding: 1.5rem;
+  }
+
+  .certifications-title {
+    font-size: 2rem;
+  }
+
+  .certification-item {
+    font-size: 1.1rem;
+  }
+}
+
+/* Small Screens (max-width: 1200px) */
+@media screen and (max-width: 1200px) {
+  #certifications {
+    margin: 0 5%;
+    padding: 1.25rem;
+  }
+
+  .certifications-title {
+    font-size: 1.75rem;
+  }
+
+  .certification-item {
+    font-size: 1rem;
+  }
+}
+
+/* Extra Small Screens (max-width: 600px) */
+@media screen and (max-width: 600px) {
+  #certifications {
+    margin: 0 2%;
+    padding: 1rem;
+    border: none;
+    background: none;
+  }
+
+  .certifications-title {
+    font-size: 1.5rem;
+  }
+
+  .certification-item {
+    font-size: 0.9rem;
+    padding-left: 1rem;
+  }
+}
